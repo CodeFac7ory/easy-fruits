@@ -29,7 +29,7 @@ function Category(props) {
 	      setVisibleProducts(data.products);
 	    });
   	}
-  }, [props.url]);
+  }, [props.url, props.id]);
 
   const [value, setValue] = React.useState([]);
 
